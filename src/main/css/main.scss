@@ -2,6 +2,10 @@ $main-color: #f53838;
 .top-main {
   display: flex;
 }
+.mid-main-back {
+  background-color: #f6f6f6;
+  z-index: -1;
+}
 .left-top-main {
   img {
     margin-top: 95.83px;
@@ -47,6 +51,7 @@ $main-color: #f53838;
 }
 .mid-main-title {
   font-style: normal;
+  padding-top: 80.27px;
   font-weight: 500;
   font-size: 35px;
   line-height: 50px;
@@ -242,6 +247,7 @@ $main-color: #f53838;
 .before-footer {
   background: #ffffff;
   border-radius: 10px;
+  height: 223px;
   display: flex;
   justify-content: space-between;
   align-items: center;
